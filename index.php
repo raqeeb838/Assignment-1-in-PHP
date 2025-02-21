@@ -44,6 +44,14 @@
 
   $addValue = $a + $b;
 
-   echo "Addition a and b value = ". $addValue
+   echo "Addition a and b value = ". $addValue;
+
+   echo "<br>";
+   $checkEven = 5;
+   if($checkEven%2==0){
+    echo "number is even";
+   }else{
+    echo "number is odd";
+   }
 ?>
 
